@@ -1,0 +1,78 @@
+Theme Analysis Results
+=====================
+
+Summer Theme:
+Average relevance: -0.001
+Most relevant letter (score: 0.089):
+- From: John Polidori to John Murray
+- Date: 1816-07-10
+- Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Memoir of John MurrayJohn Polidori to John Murray, 10 July 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:PrefaceVol....
+- Source: https://lordbyron.org/monograph.php?doc=SaSmiles.1891&select=chXV.13
+
+Top 3 most relevant letters:
+- Score: 0.089
+  From: John Polidori to John Murray
+  Date: 1816-07-10
+  Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Memoir of John MurrayJohn Polidori to John Murray, 10 July 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:PrefaceVol....
+  Source: https://lordbyron.org/monograph.php?doc=SaSmiles.1891&select=chXV.13
+- Score: 0.061
+  From: John Murray to Lord Byron
+  Date: 1816-09-20
+  Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Memoir of John MurrayJohn Murray to Lord Byron, 20 September 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:PrefaceVo...
+  Source: https://lordbyron.org/monograph.php?doc=SaSmiles.1891&select=chXV.15
+- Score: 0.059
+  From: John Murray to Lord Byron
+  Date: 1816-09-12
+  Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Memoir of John MurrayJohn Murray to Lord Byron, 12 September 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:PrefaceVo...
+  Source: https://lordbyron.org/monograph.php?doc=SaSmiles.1891&select=chXV.14
+
+Romantic Theme:
+Average relevance: 0.173
+Most relevant letter (score: 0.206):
+- From: John Murray to Lord Byron
+- Date: 1816-09-20
+- Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Memoir of John MurrayJohn Murray to Lord Byron, 20 September 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:PrefaceVo...
+- Source: https://lordbyron.org/monograph.php?doc=SaSmiles.1891&select=chXV.15
+
+Top 3 most relevant letters:
+- Score: 0.206
+  From: John Murray to Lord Byron
+  Date: 1816-09-20
+  Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Memoir of John MurrayJohn Murray to Lord Byron, 20 September 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:PrefaceVo...
+  Source: https://lordbyron.org/monograph.php?doc=SaSmiles.1891&select=chXV.15
+- Score: 0.205
+  From: Lord Byron to Augusta Leigh
+  Date: 1816-09-14
+  Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Astarte: a Fragment of TruthLord Byron to Augusta Leigh, 14 SeptemberINTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:Intro...
+  Source: https://lordbyron.org/monograph.php?doc=LdLovel2.Astarte&select=ch11.4
+- Score: 0.203
+  From: John Murray to Lord Byron
+  Date: 1816-09-12
+  Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Memoir of John MurrayJohn Murray to Lord Byron, 12 September 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:PrefaceVo...
+  Source: https://lordbyron.org/monograph.php?doc=SaSmiles.1891&select=chXV.14
+
+Gothic Theme:
+Average relevance: 0.043
+Most relevant letter (score: 0.103):
+- From: Lord Byron to Augusta Leigh
+- Date: 1816-09-17
+- Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Astarte: a Fragment of TruthLord Byron to Augusta Leigh, 17 September 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:...
+- Source: https://lordbyron.org/monograph.php?doc=LdLovel2.Astarte&select=ch11.7
+
+Top 3 most relevant letters:
+- Score: 0.103
+  From: Lord Byron to Augusta Leigh
+  Date: 1816-09-17
+  Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Astarte: a Fragment of TruthLord Byron to Augusta Leigh, 17 September 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:...
+  Source: https://lordbyron.org/monograph.php?doc=LdLovel2.Astarte&select=ch11.7
+- Score: 0.102
+  From: Lord Byron to Augusta Leigh
+  Date: 1816-09-08
+  Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Astarte: a Fragment of TruthLord Byron to Augusta Leigh, 8 September 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:I...
+  Source: https://lordbyron.org/monograph.php?doc=LdLovel2.Astarte&select=ch11.3
+- Score: 0.102
+  From: Lord Byron to Augusta Leigh
+  Date: 1816-10-15
+  Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Astarte: a Fragment of TruthLord Byron to Augusta Leigh, 15 October 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:In...
+  Source: https://lordbyron.org/monograph.php?doc=LdLovel2.Astarte&select=ch11.9
+
