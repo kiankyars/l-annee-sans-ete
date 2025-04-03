@@ -2,77 +2,435 @@ Theme Analysis Results
 =====================
 
 Summer Theme:
-Average relevance: -0.001
-Most relevant letter (score: 0.089):
-- From: John Polidori to John Murray
-- Date: 1816-07-10
-- Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Memoir of John MurrayJohn Polidori to John Murray, 10 July 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:PrefaceVol....
-- Source: https://lordbyron.org/monograph.php?doc=SaSmiles.1891&select=chXV.13
+Average relevance: 0.066
+Most relevant letter (score: 0.146):
+- From: Lord Byron to John Murray
+- Date: 1816-10-09
+- Source: https://lordbyron.org/monograph.php?doc=ThMoore.1830&select=AD1816.30
+
+Full Letter Content:
+--------------------------------------------------------------------------------
+âThus far on my way to Italy. We have just passed the
+                           âPisse-Vacheâ (one of the first torrents in Switzerland) in time to view the
+                           iris which the sun flings along it before noon.
+
+âI have written to you twice lately.Mr. Davies, I hear, is arrived. He brings the original
+                           MS. which you wished to see. Recollect that the printing is to be from that whichMr. Shelleybrought; and recollect also, that
+                           the concluding stanzas ofChilde Harold(those to mydaughter) which I had not made up my mind whether to
+                           publish or not when they werefirstwritten (as you will see
+                           marked on the margin of the first copy), I had (and have) fully determined to publish
+                           with the rest of the Canto, as in the copy which you received by Mr.
+                              Shelley, before I sent it to England.
+
+âOur weather is very fine, which is more than the summer has
+                           been.âAt Milan I shall expect to hear from you. Address either to Milan,poste restante, or by way of Geneva, to the care ofMonsr. Hentsch, Banquier. I write these few
+                           lines in case my other letter should not reach you; I trust one of them will.
+
+âP.S. My best respects and regards toMr. Gifford. Will you tell him, it may perhaps be as
+                              well to put a short note to that part relating toClarens,merely to say, that of course the description does not refer to that particular spot
+                              so much as to the command of scenery round it? I do not know that this is necessary,
+                              and leave it to Mr. G.âs choice, as my editor,âif he will allow me to call him
+                              so at this distance.â
+--------------------------------------------------------------------------------
 
 Top 3 most relevant letters:
-- Score: 0.089
-  From: John Polidori to John Murray
-  Date: 1816-07-10
-  Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Memoir of John MurrayJohn Polidori to John Murray, 10 July 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:PrefaceVol....
-  Source: https://lordbyron.org/monograph.php?doc=SaSmiles.1891&select=chXV.13
-- Score: 0.061
-  From: John Murray to Lord Byron
-  Date: 1816-09-20
-  Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Memoir of John MurrayJohn Murray to Lord Byron, 20 September 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:PrefaceVo...
-  Source: https://lordbyron.org/monograph.php?doc=SaSmiles.1891&select=chXV.15
-- Score: 0.059
-  From: John Murray to Lord Byron
-  Date: 1816-09-12
-  Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Memoir of John MurrayJohn Murray to Lord Byron, 12 September 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:PrefaceVo...
-  Source: https://lordbyron.org/monograph.php?doc=SaSmiles.1891&select=chXV.14
+
+- Score: 0.146
+  From: Lord Byron to John Murray
+  Date: 1816-10-09
+  Source: https://lordbyron.org/monograph.php?doc=ThMoore.1830&select=AD1816.30
+
+  Full Letter Content:
+  ----------------------------------------------------------------------------
+  âThus far on my way to Italy. We have just passed the
+                             âPisse-Vacheâ (one of the first torrents in Switzerland) in time to view the
+                             iris which the sun flings along it before noon.
+  
+  âI have written to you twice lately.Mr. Davies, I hear, is arrived. He brings the original
+                             MS. which you wished to see. Recollect that the printing is to be from that whichMr. Shelleybrought; and recollect also, that
+                             the concluding stanzas ofChilde Harold(those to mydaughter) which I had not made up my mind whether to
+                             publish or not when they werefirstwritten (as you will see
+                             marked on the margin of the first copy), I had (and have) fully determined to publish
+                             with the rest of the Canto, as in the copy which you received by Mr.
+                                Shelley, before I sent it to England.
+  
+  âOur weather is very fine, which is more than the summer has
+                             been.âAt Milan I shall expect to hear from you. Address either to Milan,poste restante, or by way of Geneva, to the care ofMonsr. Hentsch, Banquier. I write these few
+                             lines in case my other letter should not reach you; I trust one of them will.
+  
+  âP.S. My best respects and regards toMr. Gifford. Will you tell him, it may perhaps be as
+                                well to put a short note to that part relating toClarens,merely to say, that of course the description does not refer to that particular spot
+                                so much as to the command of scenery round it? I do not know that this is necessary,
+                                and leave it to Mr. G.âs choice, as my editor,âif he will allow me to call him
+                                so at this distance.â
+  ----------------------------------------------------------------------------
+
+- Score: 0.135
+  From: Lord Byron to Augusta Leigh
+  Date: 1816-10-26
+  Source: https://lordbyron.org/monograph.php?doc=LdLovel2.Astarte&select=ch11.10
+
+  Full Letter Content:
+  ----------------------------------------------------------------------------
+  It is a month since the date of your last letterâbut you are not to suppose
+                  that your letters do not arrive. All the assertions of the post being impeded are (I believe)
+                  false; and the faults of their non-arrival are in those who write, (or rather do not write) not in
+                  the conveyance. I have hitherto written to you very regularly, indeed rather perhaps too often, but
+                  I now tell you that I will not write again at all, if I wait so long for my answers. I have
+                  received no less than three letters from one person all dated withinthis
+                    monthof Octr, so that it cannot be the fault of the post, and as to
+                  the addressâI particularly statedGeneva, as usual poste restante, or to the
+                  care ofMonsrHentschBanquier
+                  Genevaâperhaps the latter is safest. I mention all thisânot from any wish to plague youâbut because
+                    [my unfortunateeffaced] circumstances perhaps make me feel more keenly anything which looks
+                  like neglect; and as among my faults towards you,thatat least has not been
+                  one, even in that in which I am often negligentâviz.âletter writingâpray do not set me the example,
+                  lest I follow it.
+  
+  I have written twice since my arrival at Milan and once before I left Geneva.
+                  My Diodati letter contained some directions about my daughterAda, and I hope you received that letter & fulfilled my request as far as regards
+                  my child. I wish also to know ifScropedelivered the things
+                  entrusted to him by me, as I have no news of that illustrious personage. Milan has been an
+                  agreeable residence to me, but we propose going on to Venice next week. You will address however as
+                  usual (to my bankers) to Geneva. I have found a good many of the noble as well as literary classes
+                  of society intelligent, & very kind & attentive to strangers. I have seen all the sights,
+                  & last night among others heard an Improvisatore recite, a very celebrated one, namedSgricchi. It is not an amusing though a curious effort of human
+                  powers. I276BYRON AND AUGUSTAenclose you a letter ofMonti(who is here & whom I know), the most famous Italian poet now living, as a
+                  specimen of his handwriting. If there are any of your acquaintance fond of collecting such things
+                  you may give it to them; it is not addressed to me.
+  ----------------------------------------------------------------------------
+
+- Score: 0.112
+  From: Lord Byron to Augusta Leigh
+  Date: 1816-08-27
+  Source: https://lordbyron.org/monograph.php?doc=LdLovel2.Astarte&select=ch11.2
+
+  Full Letter Content:
+  ----------------------------------------------------------------------------
+  Your confidential letter is safe, and all the others. This one has cut me to
+                  the heart because I have made you uneasy. Still I think all these apprehensionsâvery groundless.
+                  Who can care for such a wretch asCeââ,41See Chap. II., p. 46, and Chap. III., p. 59.2Father of the present head of the firm.3See Chap. V., p. III.4Lady Caroline Lamb.264BYRON AND AUGUSTAor believe such a seventy times convicted liar? and in the next place,
+                  whatever she may suppose or assertâI never âcommittedâ any one to her butmyself. And as to herfanciesâshe
+                  fancies any thingâand every bodyâLady M1&c. &c. Really this is starting at shadows. You distress me withânoâit is notyou. But I have heard thatLady Bââis
+                  ill, & I am so sorryâbut itâs of no useâdo not mention her againâbut I shall not forget her
+                  kindness to you.
+  
+  1See Chap. II., p. 46, and Chap. III., p. 59.
+  
+  2Father of the present head of the firm.
+  
+  3See Chap. V., p. III.
+  
+  4Lady Caroline Lamb.
+  
+  I am going to Chamouni (to leave my card with Mont Blanc) and I mean to buy
+                  some pretty granite & spar playthings for children (which abound there) for my daughterâand my
+                  niecesâYou will forward what I select to littleDaâ&
+                  divide the rest among your own. I shall send them byScrope;
+                  this goes by another person. I shall write more and longer soon.
+  
+  do not be uneasyâand do not âhate yourselfâ if you hate either let it bemeâbut do notâit would kill me; we are the last persons in the worldâwho
+                  oughtâor could cease to love one another.
+  
+  P.S. I send a note toGeorgiana. I do
+                    not understand all your mysteries about âthe versesâ & the Asterisks; but if the name is not
+                    put asterisks always are, & I see nothing remarkable in this. I have heard nothing but
+                    praises of those lines.
+  ----------------------------------------------------------------------------
+
+================================================================================
 
 Romantic Theme:
-Average relevance: 0.173
-Most relevant letter (score: 0.206):
-- From: John Murray to Lord Byron
-- Date: 1816-09-20
-- Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Memoir of John MurrayJohn Murray to Lord Byron, 20 September 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:PrefaceVo...
-- Source: https://lordbyron.org/monograph.php?doc=SaSmiles.1891&select=chXV.15
+Average relevance: 0.206
+Most relevant letter (score: 0.370):
+- From: John Polidori to John Murray
+- Date: 1816-07-10
+- Source: https://lordbyron.org/monograph.php?doc=SaSmiles.1891&select=chXV.13
+
+Full Letter Content:
+--------------------------------------------------------------------------------
+Your letter to me was received both by myself andLord Byronwith great pleasure. Yours of the day
+                                    following has not arrived, which is a pity, as in your last you talk of a
+                                    journal in it which, to Lord Byronâwho hears nothing
+                                    but reports of Insurrection in the East, Rebellions in the West, and Murders
+                                    North and Southâwould be a great gratification.Lord Liverpoolresigned,Lord
+                                        Wellingtonblown up, and half-a-dozen greatly lettered
+                                    namesâwith some pleasant accidents after themâis all we have to
+                                    keep us newspaperly alive. We are also quite ignorant of all literary news;
+                                    something of some poems byColeridge,Maturinâsplay, âThe Antiquary,â and
+                                        âGlenarvonâ have reached us. Since it has given you hopes of
+                                    entering well into the literary world next winter, that âChilde Haroldâ has got
+                                    another canto of 118 stanzas, you will be more pleased to hear of another poem
+                                    of 400 lines called âTheâCHILDE HAROLD,â CANTO III.365Castle of Chillonâ; the
+                                    feelings of a third of three brothers in prison on the banks of the Geneva
+                                    Lake. I think it very beautiful, containing more of his tender than of his
+                                    sombre poetry. Indeed âChilde Haroldâ himself
+                                    is a little alteredâmore philosophic and less blackly misanthropic than
+                                    before. . . . Lord Byron desires me to say that it was my
+                                    neglectful hurry on writing my last that hindered me repeating to you his
+                                    compliments, which he now sends you, thrice repeated.
+--------------------------------------------------------------------------------
 
 Top 3 most relevant letters:
-- Score: 0.206
+
+- Score: 0.370
+  From: John Polidori to John Murray
+  Date: 1816-07-10
+  Source: https://lordbyron.org/monograph.php?doc=SaSmiles.1891&select=chXV.13
+
+  Full Letter Content:
+  ----------------------------------------------------------------------------
+  Your letter to me was received both by myself andLord Byronwith great pleasure. Yours of the day
+                                      following has not arrived, which is a pity, as in your last you talk of a
+                                      journal in it which, to Lord Byronâwho hears nothing
+                                      but reports of Insurrection in the East, Rebellions in the West, and Murders
+                                      North and Southâwould be a great gratification.Lord Liverpoolresigned,Lord
+                                          Wellingtonblown up, and half-a-dozen greatly lettered
+                                      namesâwith some pleasant accidents after themâis all we have to
+                                      keep us newspaperly alive. We are also quite ignorant of all literary news;
+                                      something of some poems byColeridge,Maturinâsplay, âThe Antiquary,â and
+                                          âGlenarvonâ have reached us. Since it has given you hopes of
+                                      entering well into the literary world next winter, that âChilde Haroldâ has got
+                                      another canto of 118 stanzas, you will be more pleased to hear of another poem
+                                      of 400 lines called âTheâCHILDE HAROLD,â CANTO III.365Castle of Chillonâ; the
+                                      feelings of a third of three brothers in prison on the banks of the Geneva
+                                      Lake. I think it very beautiful, containing more of his tender than of his
+                                      sombre poetry. Indeed âChilde Haroldâ himself
+                                      is a little alteredâmore philosophic and less blackly misanthropic than
+                                      before. . . . Lord Byron desires me to say that it was my
+                                      neglectful hurry on writing my last that hindered me repeating to you his
+                                      compliments, which he now sends you, thrice repeated.
+  ----------------------------------------------------------------------------
+
+- Score: 0.317
   From: John Murray to Lord Byron
   Date: 1816-09-20
-  Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Memoir of John MurrayJohn Murray to Lord Byron, 20 September 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:PrefaceVo...
   Source: https://lordbyron.org/monograph.php?doc=SaSmiles.1891&select=chXV.15
-- Score: 0.205
-  From: Lord Byron to Augusta Leigh
-  Date: 1816-09-14
-  Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Astarte: a Fragment of TruthLord Byron to Augusta Leigh, 14 SeptemberINTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:Intro...
-  Source: https://lordbyron.org/monograph.php?doc=LdLovel2.Astarte&select=ch11.4
-- Score: 0.203
-  From: John Murray to Lord Byron
-  Date: 1816-09-12
-  Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Memoir of John MurrayJohn Murray to Lord Byron, 12 September 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:PrefaceVo...
-  Source: https://lordbyron.org/monograph.php?doc=SaSmiles.1891&select=chXV.14
+
+  Full Letter Content:
+  ----------------------------------------------------------------------------
+  As soon as I had read the third canto of âChilde Haroldâ myself, I
+                                      had no hesitation in tellingMr.
+                                          Kinnairdthat I should make my offer fifteen hundred guineas;
+                                      but he has called to-day to say that two thousand are expected by your friends.
+                                      I told him that hitherto, I believed that no one had impugned my estimations;
+                                      and that with regard to yourself I had no other feeling than a desire to give
+                                      all that was possible, and on the present occasion I thought I had anticipated
+                                      any notions, and that I suspected the demand to be based rather on my own data
+                                      than on any independent estimate. The poem, however, is so much beyond anything
+                                      in modern days that I may be out in my calculation: it requires an ethereal
+                                      mind, like its authorâs, to cope with it. He was so obliging as to ask
+                                      for the additional Â£500 eventually; but I have preferred to settle it at
+                                      once at the Â£2000âand now the Lord (not you) have mercy upon me!
+                                      Remember I do stipulate for all the original MSS., copies or scraps.
+  
+  I am thinking more seriously than ever of publishing a monthly
+                                      literary journal and am promised the contributions of the greatest characters
+                                      here. If I succeed, I will venture to solicit the favour of your powerful
+                                      assistance in the shape of letters, essays, characters, facts, travels,
+                                      epigrams, and otherâto youâsmall shot, and to entreat the favour of
+                                      your influence among your friends.
+  ----------------------------------------------------------------------------
+
+- Score: 0.307
+  From: Lord Byron to John Murray
+  Date: 1816-10-05
+  Source: https://lordbyron.org/monograph.php?doc=ThMoore.1830&select=AD1816.29
+
+  Full Letter Content:
+  ----------------------------------------------------------------------------
+  âSave me a copy of âBuckâsRichard
+                                III.â republished byLongman; but
+                             do not send out more books, I have too many.
+  
+  âThe âMonodyâ is in too many paragraphs, which makes it unintelligible to me;
+                             if any one else understands it in the present form, they are wiser; however, as it
+                             cannot be rectified till my return, and has been already published, even publish it on
+                             in the collectionâit will fill up the place of the omitted epistle.
+  
+  âStrike out âby request of a friend,â
+                             which is sad trash, and must have been done to make it ridiculous.
+  
+  âBe careful in the printing the stanzas beginning,âThough the day of my destinyâs, &câwhich I think well of as a composition.
+  
+  ââThe
+                                Antiquaryâ is not the best of the three, but much above all the last
+                             twenty years, saving its elder brothers.HolcroftâsMemoirsare valuable as showing strength of endurance in the man, which is
+                             worth more than all the talent in the world.
+  
+  âAnd so you have been publishing âMargaret of Anjouâ and anAssyrian tale, and refusingW. W.âsWaterloo, and the âHue and
+                                Cry.â I know not which most to admire, your rejections or acceptances. Ibelieve that prose is, after all, the most reputable,
+                             for certes, if one could foreseeâbut I wonât go onâthat is, with this sentence;
+                             but poetry is, I fear, incurable. God help me! if I proceed in this scribbling, I shall
+                             have frittered away my mind before I am thirty, but it is at times a real relief to me.
+                             For the presentâgood evening.â
+  ----------------------------------------------------------------------------
+
+================================================================================
 
 Gothic Theme:
-Average relevance: 0.043
-Most relevant letter (score: 0.103):
+Average relevance: 0.125
+Most relevant letter (score: 0.230):
 - From: Lord Byron to Augusta Leigh
-- Date: 1816-09-17
-- Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Astarte: a Fragment of TruthLord Byron to Augusta Leigh, 17 September 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:...
-- Source: https://lordbyron.org/monograph.php?doc=LdLovel2.Astarte&select=ch11.7
+- Date: 1816-08-27
+- Source: https://lordbyron.org/monograph.php?doc=LdLovel2.Astarte&select=ch11.2
+
+Full Letter Content:
+--------------------------------------------------------------------------------
+Your confidential letter is safe, and all the others. This one has cut me to
+                the heart because I have made you uneasy. Still I think all these apprehensionsâvery groundless.
+                Who can care for such a wretch asCeââ,41See Chap. II., p. 46, and Chap. III., p. 59.2Father of the present head of the firm.3See Chap. V., p. III.4Lady Caroline Lamb.264BYRON AND AUGUSTAor believe such a seventy times convicted liar? and in the next place,
+                whatever she may suppose or assertâI never âcommittedâ any one to her butmyself. And as to herfanciesâshe
+                fancies any thingâand every bodyâLady M1&c. &c. Really this is starting at shadows. You distress me withânoâit is notyou. But I have heard thatLady Bââis
+                ill, & I am so sorryâbut itâs of no useâdo not mention her againâbut I shall not forget her
+                kindness to you.
+
+1See Chap. II., p. 46, and Chap. III., p. 59.
+
+2Father of the present head of the firm.
+
+3See Chap. V., p. III.
+
+4Lady Caroline Lamb.
+
+I am going to Chamouni (to leave my card with Mont Blanc) and I mean to buy
+                some pretty granite & spar playthings for children (which abound there) for my daughterâand my
+                niecesâYou will forward what I select to littleDaâ&
+                divide the rest among your own. I shall send them byScrope;
+                this goes by another person. I shall write more and longer soon.
+
+do not be uneasyâand do not âhate yourselfâ if you hate either let it bemeâbut do notâit would kill me; we are the last persons in the worldâwho
+                oughtâor could cease to love one another.
+
+P.S. I send a note toGeorgiana. I do
+                  not understand all your mysteries about âthe versesâ & the Asterisks; but if the name is not
+                  put asterisks always are, & I see nothing remarkable in this. I have heard nothing but
+                  praises of those lines.
+--------------------------------------------------------------------------------
 
 Top 3 most relevant letters:
-- Score: 0.103
+
+- Score: 0.230
   From: Lord Byron to Augusta Leigh
-  Date: 1816-09-17
-  Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Astarte: a Fragment of TruthLord Byron to Augusta Leigh, 17 September 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:...
-  Source: https://lordbyron.org/monograph.php?doc=LdLovel2.Astarte&select=ch11.7
-- Score: 0.102
+  Date: 1816-08-27
+  Source: https://lordbyron.org/monograph.php?doc=LdLovel2.Astarte&select=ch11.2
+
+  Full Letter Content:
+  ----------------------------------------------------------------------------
+  Your confidential letter is safe, and all the others. This one has cut me to
+                  the heart because I have made you uneasy. Still I think all these apprehensionsâvery groundless.
+                  Who can care for such a wretch asCeââ,41See Chap. II., p. 46, and Chap. III., p. 59.2Father of the present head of the firm.3See Chap. V., p. III.4Lady Caroline Lamb.264BYRON AND AUGUSTAor believe such a seventy times convicted liar? and in the next place,
+                  whatever she may suppose or assertâI never âcommittedâ any one to her butmyself. And as to herfanciesâshe
+                  fancies any thingâand every bodyâLady M1&c. &c. Really this is starting at shadows. You distress me withânoâit is notyou. But I have heard thatLady Bââis
+                  ill, & I am so sorryâbut itâs of no useâdo not mention her againâbut I shall not forget her
+                  kindness to you.
+  
+  1See Chap. II., p. 46, and Chap. III., p. 59.
+  
+  2Father of the present head of the firm.
+  
+  3See Chap. V., p. III.
+  
+  4Lady Caroline Lamb.
+  
+  I am going to Chamouni (to leave my card with Mont Blanc) and I mean to buy
+                  some pretty granite & spar playthings for children (which abound there) for my daughterâand my
+                  niecesâYou will forward what I select to littleDaâ&
+                  divide the rest among your own. I shall send them byScrope;
+                  this goes by another person. I shall write more and longer soon.
+  
+  do not be uneasyâand do not âhate yourselfâ if you hate either let it bemeâbut do notâit would kill me; we are the last persons in the worldâwho
+                  oughtâor could cease to love one another.
+  
+  P.S. I send a note toGeorgiana. I do
+                    not understand all your mysteries about âthe versesâ & the Asterisks; but if the name is not
+                    put asterisks always are, & I see nothing remarkable in this. I have heard nothing but
+                    praises of those lines.
+  ----------------------------------------------------------------------------
+
+- Score: 0.182
   From: Lord Byron to Augusta Leigh
-  Date: 1816-09-08
-  Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Astarte: a Fragment of TruthLord Byron to Augusta Leigh, 8 September 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:I...
-  Source: https://lordbyron.org/monograph.php?doc=LdLovel2.Astarte&select=ch11.3
-- Score: 0.102
-  From: Lord Byron to Augusta Leigh
-  Date: 1816-10-15
-  Content: LORDÂ Â BYRONÂ Â andÂ Â hisÂ Â TIMESDocuments Biography Criticism Astarte: a Fragment of TruthLord Byron to Augusta Leigh, 15 October 1816INTRODUCTION & INDEXESDOCUMENT INFORMATIONGO TO PAGE NUMBER:In...
-  Source: https://lordbyron.org/monograph.php?doc=LdLovel2.Astarte&select=ch11.9
+  Date: 1816-10-28
+  Source: https://lordbyron.org/monograph.php?doc=LdLovel2.Astarte&select=ch11.11
+
+  Full Letter Content:
+  ----------------------------------------------------------------------------
+  Two days ago I wrote you the enclosed1but the arrival
+                  of your letter of the 12thhas revived me a little, so pray forgive the
+                  apparent âhumeurâ of the other, which I do not tear
+                  upâfrom lazynessâand the hurry of the post as I have hardly time to write another at present.
+  
+  I really do not & cannot understand all the mysteries & alarms in your
+                  letters & more particularly in the last. All I know isâthat no human power short of
+                  destructionâshall prevent me from seeing you whenâwhereâ& howâI may pleaseâaccording to time
+                  & circumstance; that you are the only comfort (except the remote possibility of my daughterâs
+                  being so) left me in prospect in existence, and that I can bear the restâso that you remain; but
+                  anything which is to divide us would drive me quite out of my senses;Miss
+                    Milbankeappears in all respects to have been formed for my destruction; I have thus
+                  farâas you knowâregarded her without feelings of personal bitterness towards her, but if directly
+                  or indirectlyâbut why do I say this?âYou know she is the cause of allâwhether intentionally or not
+                  is little to the purposeââYou surely do not mean to say that if I come to England in Spring, that
+                  you & I shall not meet? If so I will never return to itâthough I must for many1The preceding letter.277ASTARTEreasonsâbusiness &c &câBut I quit this topic for the present.
+  
+  1The preceding letter.
+  
+  My health is good, but I have now & then fits of giddiness, &
+                  deafness, which make me think likeSwiftâthat I shall be
+                  like him & thewitheredtree he sawâwhich occasioned the reflection and
+                    âdie at topâ first. My hair is growing grey, & not thicker; & my teeth are
+                  sometimeslooseishthough still white & sound. Would not one think I was
+                  sixty instead of not quite nine & twenty? To talk thusâNever mindâeither this must endâor I
+                  must endâbut I repeat it again & againâthat womanhas destroyed me.
+  
+  Milan has been made agreeable by much attention and kindness from many of the
+                  natives; but the whole tone of Italian society is so different from yours in England; that I have
+                  not time to describe it, thoâ I am not sure that I do not prefer it. Direct as usual to Genevaâhope
+                  the bestâ& love me the mostâas I ever must love you.
+  ----------------------------------------------------------------------------
+
+- Score: 0.163
+  From: Lord Byron to John Murray
+  Date: 1816-06-27
+  Source: https://lordbyron.org/monograph.php?doc=ThMoore.1830&select=AD1816.12
+
+  Full Letter Content:
+  ----------------------------------------------------------------------------
+  âI am thus far (kept by stress of weather) on my way back to
+                             Diodati (near Geneva) from a voyage in my boat round the Lake; andI enclose you a sprig ofGibbonâsacaciaand some
+                             rose-leaves from his garden, which, with part of his house, I have just seen. You will
+                             find honourable mention, in his Life, made of this âacacia,â when he walked
+                             out on the night of concluding his history. The garden andsummer-house,where he composed, are neglected, and the last utterly decayed;
+                             but they still show it as his âcabinet,â and seem perfectly aware of his
+                             memory.
+  
+  âMy route, through Flanders, and by the Rhine, to
+                             Switzerland, was all I expected and more.
+  
+  âI have traversed allRousseauâsground with theHeloisebefore me, and am struck to a degree that I
+                             cannot express with the force and accuracy of his descriptions, and the beauty of their
+                             reality. Meillerie, Clarens, and Vevay, and the Chateau de Chillon, are places of which
+                             I shall say little, because all I could say must fall short of the impressions they
+                             stamp.
+  
+  âThree days ago, we were most nearly wrecked in a squall off
+                             Meillerie, and driven to shore. I ran no risk, being so near the rocks, and a good
+                             swimmer; but our party were wet, and incommoded a good deal. The wind was strong enough
+                             to blow down some trees, as we found at landing: however, all is righted and right, and
+                             we are thus far on our return.
+  
+  âDr. Polidoriis not
+                             here, but at Diodati, left behind in hospital with a sprained ankle, which he acquired
+                             in tumbling from a wallâhe canât jump.
+  
+  âI shall be glad to hear you are well, and have received for
+                             me certain helms and swords, sent from Waterloo, which I rode over with pain and
+                             pleasure.
+  
+  âI have finished a third Canto ofChilde Harold(consisting of one hundred and seventeen
+                             stanzas), longer than either of the two former, and in some parts, it may be, better;
+                             but of course on that I cannot determine. I shall send it by the first safe-looking
+                             opportunity.
+  ----------------------------------------------------------------------------
+
+================================================================================
 

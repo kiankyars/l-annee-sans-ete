@@ -30,32 +30,26 @@ def fetch_letter_content(url):
         response = requests.get(url)
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
+
+            # Get all paragraph elements
+            paragraphs = soup.find_all('p')
             
-            # Try different possible content containers
-            content = None
+            # Extract text from each paragraph
+            letter_content = []
+            for p in paragraphs:
+                text = p.get_text(strip=True)
+                if text:
+                    # Basic cleanup
+                    text = re.sub(r'A\. D\. \d{4}\..*?\d+', '', text)  # Remove page numbers
+                    text = re.sub(r'LIFE OF LORD BYRON\.', '', text)  # Remove headers
+                    text = text.strip()
+                    if text:
+                        letter_content.append(text)
             
-            # First try the main content div
-            content = soup.find('div', class_='content')
-            
-            # If not found, try finding the letter text directly
-            if not content:
-                # Look for text that's not in headers or navigation
-                main_text = []
-                for element in soup.find_all(['p', 'div']):
-                    if element.get('class') and any(c in element.get('class') for c in ['header', 'nav', 'menu']):
-                        continue
-                    text = element.get_text(strip=True)
-                    if text and len(text) > 50:  # Only include substantial text blocks
-                        main_text.append(text)
-                if main_text:
-                    content = BeautifulSoup('<div>' + '\n'.join(main_text) + '</div>', 'html.parser')
-            
-            if content:
-                # Clean up the content
-                text = content.get_text(separator=' ', strip=True)
-                # Remove multiple spaces and newlines
-                text = re.sub(r'\s+', ' ', text)
-                return text
+            # Join all paragraphs with proper spacing
+            if letter_content:
+                return '\n\n'.join(letter_content)
+                
     except Exception as e:
         print(f"Warning: Could not fetch content from {url}: {str(e)}")
     return None
@@ -108,7 +102,7 @@ def parse_letters(html_content):
             
             letters.append({
                 'writer': writer,
-                'recipient': recipient,
+            'recipient': recipient,
                 'writer_name': writer_name,
                 'recipient_name': recipient_name,
                 'date': date,
@@ -160,54 +154,55 @@ def create_correspondence_network(letters, name_mapping):
                   date_range=date_range,
                   dates=dates)
     
-    # Create the visualization
-    plt.figure(figsize=(15, 10))
+    # Create the visualization with a larger figure size
+    plt.figure(figsize=(20, 15))
     
-    # Use a different layout algorithm for better spacing
-    pos = nx.kamada_kawai_layout(G)
+    # Use spring layout with increased k parameter for better spacing
+    pos = nx.spring_layout(G, k=2, iterations=50)
     
     # Draw nodes with different colors for senders and recipients
     sender_nodes = [node for node in G.nodes() if node.endswith('_sender')]
     recipient_nodes = [node for node in G.nodes() if node.endswith('_recipient')]
     
-    # Draw sender nodes
+    # Draw sender nodes with larger size
     nx.draw_networkx_nodes(G, pos, 
                           nodelist=sender_nodes,
                           node_color='lightblue',
-                          node_size=3000)
+                          node_size=4000)
     
-    # Draw recipient nodes
+    # Draw recipient nodes with larger size
     nx.draw_networkx_nodes(G, pos,
                           nodelist=recipient_nodes,
                           node_color='lightgreen',
-                          node_size=3000)
+                          node_size=4000)
     
     # Draw edges with varying widths based on weight
     edges = G.edges()
     weights = [G[u][v]['weight'] for u, v in edges]
     max_weight = max(weights)
-    normalized_weights = [3 * w/max_weight for w in weights]
+    normalized_weights = [4 * w/max_weight for w in weights]  # Increased edge width
     
-    # Draw edges with arrows
+    # Draw edges with arrows and increased spacing
     nx.draw_networkx_edges(G, pos,
                           width=normalized_weights,
                           edge_color='gray',
                           arrows=True,
-                          arrowsize=30,
+                          arrowsize=40,  # Larger arrows
                           arrowstyle='->',
-                          connectionstyle='arc3,rad=0.2')
+                          connectionstyle='arc3,rad=0.3')  # Increased curve
     
-    # Add node labels (remove _sender and _recipient suffixes)
+    # Add node labels with larger font
     labels = {node: node.replace('_sender', '').replace('_recipient', '') 
              for node in G.nodes()}
-    nx.draw_networkx_labels(G, pos, labels, font_size=10, font_weight='bold')
+    nx.draw_networkx_labels(G, pos, labels, font_size=12, font_weight='bold')
     
-    # Add edge labels
+    # Add edge labels with improved formatting
     edge_labels = {(u, v): f"{G[u][v]['weight']} letters\n{G[u][v]['date_range']}"
                   for u, v in G.edges()}
-    nx.draw_networkx_edge_labels(G, pos, edge_labels, font_size=8)
+    nx.draw_networkx_edge_labels(G, pos, edge_labels, font_size=10)
     
-    plt.title("Letter Correspondence Network (1816)\nEdge width represents number of letters, labels show count and date range\nBlue nodes: Senders, Green nodes: Recipients")
+    plt.title("Letter Correspondence Network (1816)\nEdge width represents number of letters, labels show count and date range\nBlue nodes: Senders, Green nodes: Recipients", 
+              fontsize=14, pad=20)
     plt.savefig('correspondence_network.png', dpi=300, bbox_inches='tight')
     plt.close()
 
@@ -261,22 +256,25 @@ def analyze_themes(letters):
             max_idx = np.argmax(scores)
             f.write(f"- From: {letters[max_idx]['writer_name']} to {letters[max_idx]['recipient_name']}\n")
             f.write(f"- Date: {letters[max_idx]['date']}\n")
-            f.write(f"- Content: {letters[max_idx]['content'][:200]}...\n")
-            if letters[max_idx]['source_url']:
-                f.write(f"- Source: {letters[max_idx]['source_url']}\n")
-            f.write("\n")
+            f.write(f"- Source: {letters[max_idx]['source_url']}\n")
+            f.write("\nFull Letter Content:\n")
+            f.write("-" * 80 + "\n")
+            f.write(letters[max_idx]['content'])
+            f.write("\n" + "-" * 80 + "\n\n")
             
             # Add top 3 most relevant letters for each theme
             top_indices = np.argsort(scores)[-3:][::-1]
             f.write("Top 3 most relevant letters:\n")
             for idx in top_indices:
-                f.write(f"- Score: {scores[idx]:.3f}\n")
+                f.write(f"\n- Score: {scores[idx]:.3f}\n")
                 f.write(f"  From: {letters[idx]['writer_name']} to {letters[idx]['recipient_name']}\n")
                 f.write(f"  Date: {letters[idx]['date']}\n")
-                f.write(f"  Content: {letters[idx]['content'][:200]}...\n")
-                if letters[idx]['source_url']:
-                    f.write(f"  Source: {letters[idx]['source_url']}\n")
-            f.write("\n")
+                f.write(f"  Source: {letters[idx]['source_url']}\n")
+                f.write("\n  Full Letter Content:\n")
+                f.write("  " + "-" * 76 + "\n")
+                f.write("  " + letters[idx]['content'].replace('\n', '\n  '))
+                f.write("\n  " + "-" * 76 + "\n")
+            f.write("\n" + "=" * 80 + "\n\n")
     
     print("Theme analysis results have been saved to theme_analysis.txt")
 
